@@ -53,6 +53,6 @@ describe("Blog page", () => {
     expect(await screen.findByText("blog page")).toBeInTheDocument();
     expect(screen.getByText("dummy title 1")).toBeInTheDocument();
     expect(screen.getByText("dummy title 2")).toBeInTheDocument();
-    screen.debug();
+    // screen.debug();
   });
 });
